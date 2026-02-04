@@ -1,43 +1,62 @@
-🎓 Courspire — E-Learning Mobile App
-📌 Overview
+🎵 Flutter Music App
 
-Courspire is a modern mobile e-learning application designed to deliver structured digital learning experiences. The platform enables learners to access courses, video lessons, and educational resources in an intuitive and mobile-optimized environment.
+A Spotify-inspired music streaming mobile app built with Flutter, focusing on modern UI implementation, clean navigation structure, and reusable components.
 
-This app focuses on accessibility, structured learning, and user-friendly navigation.
+This project demonstrates mobile UI development, screen architecture, and scalable app structure suitable for real-world music apps.
 
-🚀 Features
+✨ Features
 
-📚 Course browsing & enrollment
+🎧 Music browsing interface (Home screen)
 
-🎥 Video lesson streaming
+🎶 Music details / player screen
 
-🧠 Structured learning paths
+📝 Lyrics display page
 
-🔐 User authentication
+❤️ Favorites page
 
-📱 Mobile-optimized UI
+👤 Profile page
 
-📶 Online content delivery
+🔽 Custom bottom navigation
 
-📊 Progress tracking (planned)
+♻️ Reusable UI components
 
-🏆 Certifications (planned)
+🧠 Purpose of the Project
 
-🛠 Tech Stack
-Layer	Technology
-Frontend	Android (Kotlin / Java)
-Backend	Firebase (Auth, Firestore, Storage)
-Architecture	MVVM
-UI	Material Design
-Version Control	Git & GitHub
-🏗 Project Structure
-app/
- ├── ui/          # Screens & Activities
- ├── viewmodel/   # Business logic
- ├── model/       # Data models
- ├── repository/  # Data handling
- └── utils/       # Helpers
+This app was built to practice and showcase:
+
+Flutter UI implementation
+
+Screen routing and navigation
+
+Component reusability
+
+Mobile layout hierarchy
+
+Product-style architecture
+
+Integration readiness for Firebase
+
+📱 Screens Implemented
+Screen	Description
+Home Page	Main music discovery interface
+Music Page	Displays selected track details
+Lyrics Page	Dedicated layout for song lyrics
+Favorites Page	Shows saved songs
+Profile Page	User profile interface
+🧩 Reusable Widgets
+Widget	Purpose
+AppBottomNavigation	Custom bottom navigation bar
+AppDefaultButton	Reusable button component
+DefaultAppBar	Consistent app bar across screens
+🧰 Tech Stack
+
+Flutter (Dart)
+
+Firebase (configured)
+
+Material Design
 
 🔒 Security Note
-
 Firebase configuration files and API keys are excluded from version control for security reasons.
+
+
